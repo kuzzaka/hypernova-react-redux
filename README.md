@@ -35,32 +35,9 @@ export default renderReactRedux(
 );
 ```
 
-### Multiple connected components
-
-```js
-import React from 'react';
-import { renderReactRedux } from 'hypernova-react-redux';
-import MyConnectedComponentA from './src/MyConnectedComponentA.jsx';
-import MyConnectedComponentB from './src/MyConnectedComponentB.jsx';
-import myConfigureStore from './src/MyStore/ConfigureStore.jsx';
-
-export default renderReactRedux(
-  'MyConnectedComponent.hypernova.js', // this file's name (or really any unique name)
-  <div>
-    <MyConnectedComponentA />
-    <MyConnectedComponentB />
-  </div>,
-  myConfigureStore
-);
-```
-
-## Todo
-
-- [x] To handle the multiple of the connected components
-
 ## Contribution
 
-1. Fork it ( http://github.com/noriaki/hypernova-react-redux/fork )
+1. Fork it ( http://github.com/noriaki/hypernova-react-redux-enhancers/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -72,4 +49,4 @@ export default renderReactRedux(
 
 ## Author
 
-[noriaki](https://github.com/noriaki)
+[kuzzaka](https://github.com/kuzzaka)
