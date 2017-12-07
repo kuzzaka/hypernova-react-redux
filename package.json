@@ -1,7 +1,7 @@
 {
-  "name": "hypernova-react-redux",
-  "version": "1.2.0",
-  "description": "React/Redux (react-redux) bindings for Hypernova",
+  "name": "hypernova-react-redux-sagas",
+  "version": "1.2.1",
+  "description": "React/Redux/Sagas bindings for Hypernova",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
@@ -14,12 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noriaki/hypernova-react-redux.git"
+    "url": "git+https://github.com/kuzzaka/hypernova-react-redux-sagas.git"
   },
   "keywords": [
     "react",
     "redux",
     "react-redux",
+    "sagas",
+    "redux-saga",
     "hypernova",
     "server",
     "render",
@@ -33,12 +35,12 @@
     "test",
     ".eslintrc.json"
   ],
-  "author": "Noriaki Uchiyama <uchiyama.noriaki@gmail.com>",
+  "author": "Alex Kuznetsov <kuzzaka@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noriaki/hypernova-react-redux/issues"
+    "url": "https://github.com/kuzzaka/hypernova-react-redux-sagas/issues"
   },
-  "homepage": "https://github.com/noriaki/hypernova-react-redux#readme",
+  "homepage": "https://github.com/kuzzaka/hypernova-react-redux-sagas#readme",
   "peerDependencies": {
     "hypernova": "^1.0.0",
     "react": "0.14.x || >= 15.x",
